@@ -48,6 +48,7 @@ function Contact() {
       // Process the form submission here
       console.log('Form data:', formValues);
       alert('Form submitted successfully!');
+      setFormValues({ name: '', email: '', message: ''})
     }
   };
 
