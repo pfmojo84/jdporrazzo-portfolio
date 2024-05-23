@@ -52,7 +52,7 @@ function Contact() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-ocean to-sunset flex flex-col items-center justify-center font-funky">
+    <div className="min-h-screen bg-gradient-to-b from-ocean to-sunset flex flex-col items-center justify-center font-funky">
       {/* Header section */}
       <header className="w-full py-12">
         <h1 className="text-5xl text-white text-center">Contact Me</h1>

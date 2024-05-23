@@ -13,7 +13,7 @@ import resume from '../../assets/JPorrazzo_Resume_Summer_2024.pdf'
 
 function Services() {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-ocean to-sunset flex flex-col items-center justify-center font-funky">
+    <div className="min-h-screen bg-gradient-to-b from-ocean to-sunset flex flex-col items-center justify-center font-funky">
       <header className="w-full py-6">
         <h1 className="text-3xl md:text-5xl text-tech text-center mt-6">Hey There!<br/>Check Out My <a href={ resume } download className="text-blue-700 hover:text-red-700">Resume</a></h1>
         </header>

@@ -4,7 +4,7 @@ import Avatar from '../../assets/avatar.png';
 
 function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-ocean to-sunset flex flex-col items-center justify-center font-funky">
+    <div className="min-h-screen bg-gradient-to-b from-ocean to-sunset flex flex-col items-center justify-center font-funky">
         {/* Header section */}
       <header className="w-full pt-8 mb-8">
         <h1 className="text-5xl text-tech text-center">Welcome to My Far Out Journey To <br/> the Outer Limits of the Interwebs</h1>

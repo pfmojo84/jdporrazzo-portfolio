@@ -50,7 +50,7 @@ function Portfolio() {
   ]
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-ocean to-sunset flex flex-col items-center justify-center font-funky">
+    <div className="min-h-screen bg-gradient-to-b from-ocean to-sunset flex flex-col items-center justify-center font-funky">
       <header className="w-full py-6">
         <h1 className="text-5xl text-tech text-center">My Work</h1>
       </header>
