@@ -1,5 +1,6 @@
 import React from 'react'
 
+// ProjectCard component definition using props to receive project data
 const ProjectCard = (props) => {
   return (
 

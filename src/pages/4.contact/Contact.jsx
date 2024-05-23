@@ -53,25 +53,60 @@ function Contact() {
 
   return (
     <div className="min-h-screen bg-gradient-to-r from-ocean to-sunset flex flex-col items-center justify-center font-funky">
+      {/* Header section */}
       <header className="w-full py-12">
         <h1 className="text-5xl text-white text-center">Contact Me</h1>
       </header>
+      
+      {/* Main content section */}
       <main className="flex-grow flex flex-col items-center pt-12">
         <p className="text-4xl text-sand">Get in touch:</p>
+        
+        {/* Contact form */}
         <form className="flex flex-col items-center space-y-4 mt-4" onSubmit={handleSubmit}>
-          <input type="text" placeholder="Name" name="name"
-                 className={`p-2 border ${errors.name ? 'border-red-500' : 'border-gray-400'} rounded w-96`}
-                 value={formValues.name} onChange={handleChange} />
+          {/* Name input field */}
+          <input
+            type="text"
+            placeholder="Name"
+            name="name"
+            className={`p-2 border ${errors.name ? 'border-red-500' : 'border-gray-400'} rounded w-96`}
+            value={formValues.name}
+            onChange={handleChange}
+          />
+          {/* Error message for name */}
           {errors.name && <p className="text-red-500">{errors.name}</p>}
-          <input type="email" placeholder="Email" name="email"
-                 className={`p-2 border ${errors.email ? 'border-red-500' : 'border-gray-400'} rounded w-96`}
-                 value={formValues.email} onChange={handleChange} />
+          
+          {/* Email input field */}
+          <input
+            type="email"
+            placeholder="Email"
+            name="email"
+            className={`p-2 border ${errors.email ? 'border-red-500' : 'border-gray-400'} rounded w-96`}
+            value={formValues.email}
+            onChange={handleChange}
+          />
+          {/* Error message for email */}
           {errors.email && <p className="text-red-500">{errors.email}</p>}
-          <textarea placeholder="Message" name="message"
-                    className={`p-2 border ${errors.message ? 'border-red-500' : 'border-gray-400'} rounded w-full`}
-                    rows="4" value={formValues.message} onChange={handleChange}></textarea>
+          
+          {/* Message textarea */}
+          <textarea
+            placeholder="Message"
+            name="message"
+            className={`p-2 border ${errors.message ? 'border-red-500' : 'border-gray-400'} rounded w-full`}
+            rows="4"
+            value={formValues.message}
+            onChange={handleChange}
+          ></textarea>
+          {/* Error message for message */}
           {errors.message && <p className="text-red-500">{errors.message}</p>}
-          <button type="submit" className="bg-kelp text-sunset p-2 rounded w-32 text-2xl hover:bg-sky-900">Send</button>
+          
+          {/* Submit button */}
+          <button
+            type="submit"
+            className="bg-kelp text-sunset p-2 rounded w-32 text-2xl hover:bg-sky-900"
+          >
+            Send
+          </button>
         </form>
       </main>
     </div>
