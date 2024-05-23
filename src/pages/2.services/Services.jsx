@@ -1,11 +1,13 @@
 
 import React from 'react';
+// Import icons from react-icons library
 import { FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { RiTailwindCssLine } from "react-icons/ri";
 import { FaNode } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
+// Import the resume PDF file
 import resume from '../../assets/JPorrazzo_Resume_Summer_2024.pdf'
 
 
@@ -17,6 +19,8 @@ function Services() {
         </header>
       <main className="w-full flex-grow flex flex-col items-center mt-12 px-4">
         <p className="text-4xl md:text-6xl text-tech font-fun font-bold text-center">Some of the tech I use...</p>
+
+          {/* List of technology icons */}
         <ul className="text-6xl md:text-9xl text-sand mt-8 flex space-x-7">
           <li className='text-teal-900'><FaReact /></li>
           <li><IoLogoJavascript /></li>
@@ -25,6 +29,8 @@ function Services() {
           <li className='text-black'><SiMysql /></li>
           <li className='text-green-900'><DiMongodb /></li>
         </ul>
+
+         {/* Services and specialities introduction */}
         <p className="text-5xl md:text-7xl text-service font-bold font-fun mt-12 mb-6 text-center">Services and Specialities</p>
         <ul className="text-2xl md:text-4xl font-bold grid grid-cols-1 gap-4 font-fun text-center w-full px-28">
           <li className='text-black'>Full Stack Web Development</li>

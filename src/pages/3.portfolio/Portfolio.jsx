@@ -2,6 +2,8 @@ import React from 'react';
 import ProjectCard from './ProjectCard';
 
 function Portfolio() {
+
+   // Array of project objects with details about each project
   const projects = [
     {
       name: "Meep",
@@ -55,6 +57,7 @@ function Portfolio() {
       <main className="flex-grow flex flex-col items-center justify-center text-2xl">
         <p className="text-2xl text-tech pt-4">Here are some of my recent projects:</p>
         <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4 w-full px-4">
+          {/* Iterate over the projects array to display each project */}
           {projects.map(item => {
               return (
                 <ProjectCard 
