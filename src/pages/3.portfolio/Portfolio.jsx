@@ -1,5 +1,11 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
+import meepImage from '../../assets/MEEP_screenshot_2024.png';
+import relocareImage from '../../assets/relocare_screenshot_2024.png';
+import weatherAppImage from '../../assets/weatherapp_screenshot_2024.png';
+import dailyPlannerImage from '../../assets/dailyplanner_screenshot_2023.png';
+import jsQuizImage from '../../assets/jsquiz_screenshot_2024.png';
+import htmlCssPortfolioImage from '../../assets/htmlcss_portfolio.png';
 
 function Portfolio() {
 
@@ -8,42 +14,42 @@ function Portfolio() {
     {
       name: "Meep",
       description: "eCommerce Webpage using HTML, CSS, and JS",
-      image: "../src/assets/MEEP_screenshot_2024.png",
+      image: meepImage,
       github: "https://github.com/pfmojo84/meep-meep",
       liveUrl: "https://pfmojo84.github.io/meep-meep/"
     },
     {
       name: "Relocare",
       description: "Community resource application for asylum seekers (CRUD App using MySQL)",
-      image: "../src/assets/relocare_screenshot_2024.png",
+      image: relocareImage,
       github: "https://github.com/pfmojo84/ReloCareWebApp",
       liveUrl: "https://peaceful-taiga-71924-fa15f58117fe.herokuapp.com/login"
     },
     {
       name: "Five Day Forecast",
       description: "Weather app using JS and OpenWeather API",
-      image: "../src/assets/weatherapp_screenshot_2024.png",
+      image: weatherAppImage,
       github: "https://github.com/pfmojo84/five-day-forecast",
       liveUrl: "https://pfmojo84.github.io/five-day-forecast/"
     },
     {
       name: "Daily Planner",
       description: "Cross items off your to-do list with this functional daily planner app!",
-      image: "../src/assets/dailyplanner_screenshot_2023.png",
+      image: dailyPlannerImage,
       github: "https://github.com/pfmojo84/daily-schedule-app",
       liveUrl: "https://pfmojo84.github.io/daily-schedule-app/"
     },
     {
       name: "Javascript Quiz App",
       description: "Test your JS knowledge and save your high score!",
-      image: "../src/assets/jsquiz_screenshot_2024.png",
+      image: jsQuizImage,
       github: "https://github.com/pfmojo84/fun-in-fundamentals-js",
       liveUrl: "https://pfmojo84.github.io/fun-in-fundamentals-js/index.html"
     },
     {
       name: "Original Portfolio built with HTML and CSS",
       description: "My first portfolio page!",
-      image: "../src/assets/htmlcss_portfolio.png",
+      image: htmlCssPortfolioImage,
       github: "https://github.com/pfmojo84/jporrazzo-portfolio",
       liveUrl: "https://pfmojo84.github.io/jporrazzo-portfolio/"
     },
