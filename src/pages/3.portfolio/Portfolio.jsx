@@ -5,12 +5,19 @@ import relocareImage from '../../assets/relocare_screenshot_2024.png';
 import weatherAppImage from '../../assets/weatherapp_screenshot_2024.png';
 import dailyPlannerImage from '../../assets/dailyplanner_screenshot_2023.png';
 import jsQuizImage from '../../assets/jsquiz_screenshot_2024.png';
-import htmlCssPortfolioImage from '../../assets/htmlcss_portfolio.png';
+import jobCredImage from '../../assets/JobCred_screenshot.png';
 
 function Portfolio() {
 
    // Array of project objects with details about each project
   const projects = [
+    {
+      name: "JobCred",
+      description: "MERN Application for Job Seekers and Employers",
+      image: jobCredImage,
+      github: "https://github.com/TimL94/Job-Cred",
+      liveUrl: "https://job-cred.onrender.com/"
+    },
     {
       name: "Meep",
       description: "eCommerce Webpage using HTML, CSS, and JS",
@@ -45,14 +52,7 @@ function Portfolio() {
       image: jsQuizImage,
       github: "https://github.com/pfmojo84/fun-in-fundamentals-js",
       liveUrl: "https://pfmojo84.github.io/fun-in-fundamentals-js/index.html"
-    },
-    {
-      name: "Original Portfolio built with HTML and CSS",
-      description: "My first portfolio page!",
-      image: htmlCssPortfolioImage,
-      github: "https://github.com/pfmojo84/jporrazzo-portfolio",
-      liveUrl: "https://pfmojo84.github.io/jporrazzo-portfolio/"
-    },
+    }
   ]
 
   return (
