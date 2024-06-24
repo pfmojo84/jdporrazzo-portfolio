@@ -56,12 +56,12 @@ function Contact() {
     <div className="min-h-screen bg-gradient-to-b from-ocean to-sunset flex flex-col items-center justify-center font-funky">
       {/* Header section */}
       <header className="w-full py-12">
-        <h1 className="text-5xl text-white text-center">Contact Me</h1>
+        <h1 className="text-5xl text-black text-center">Contact Me Today!</h1>
       </header>
       
       {/* Main content section */}
-      <main className="flex-grow flex flex-col items-center pt-12">
-        <p className="text-4xl text-sand">Get in touch:</p>
+      <main className="flex-grow flex flex-col items-center pt-8">
+        <p className="text-4xl text-black">Get in touch:</p>
         
         {/* Contact form */}
         <form className="flex flex-col items-center space-y-4 mt-4" onSubmit={handleSubmit}>

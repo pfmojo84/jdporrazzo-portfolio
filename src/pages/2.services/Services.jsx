@@ -15,10 +15,10 @@ function Services() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-ocean to-sunset flex flex-col items-center justify-center font-funky">
       <header className="w-full py-6">
-        <h1 className="text-3xl md:text-5xl text-tech text-center mt-6">Hey There!<br/>Check Out My <a href={ resume } download className="text-blue-700 hover:text-red-700">Resume</a></h1>
+        <h1 className="text-3xl md:text-5xl text-black text-center mt-6">Hey There!<br/>Check Out My <a href={ resume } download className="text-blue-700 hover:text-red-700">Resume</a></h1>
         </header>
       <main className="w-full flex-grow flex flex-col items-center mt-12 px-4">
-        <p className="text-4xl md:text-6xl text-tech font-fun font-bold text-center">Some of the tech I use...</p>
+        <p className="text-4xl md:text-6xl text-black font-fun font-bold text-center">Some of the tech I use...</p>
 
           {/* List of technology icons */}
         <ul className="text-6xl md:text-9xl text-sand mt-8 flex space-x-7">
@@ -31,7 +31,7 @@ function Services() {
         </ul>
 
          {/* Services and specialities introduction */}
-        <p className="text-5xl md:text-7xl text-service font-bold font-fun mt-12 mb-6 text-center">Services and Specialities</p>
+        <p className="text-5xl md:text-7xl text-black font-bold font-fun mt-12 mb-6 text-center">Services and Specialities:</p>
         <ul className="text-2xl md:text-4xl font-bold grid grid-cols-1 gap-4 font-fun text-center w-full px-28">
           <li className='text-black'>Full Stack Web Development</li>
           <li className='text-black'>UI/UX Design</li>

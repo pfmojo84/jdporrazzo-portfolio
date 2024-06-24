@@ -5,7 +5,7 @@ import { SiCodecademy } from "react-icons/si";
 
 function Footer() {
   return (
-    <footer className="bg-kelp text-sunset py-4 text-5xl flex flex-col items-center space-y-2">
+    <footer className="bg-kelp text-white py-4 text-5xl flex flex-col items-center space-y-2">
       <div className='flex space-x-6'>
         <a href="https://github.com/pfmojo84" target="_blank" rel="noopener noreferrer">
         <FaGithub />
@@ -17,7 +17,7 @@ function Footer() {
         <SiCodecademy />
         </a>
       </div>
-      <p className="bg-kelp text-sunset text-center font-captain text-4xl flex flex-col items-center space-y-4">© 2024 John Porrazzo. All rights reserved.</p>
+      <p className="bg-kelp text-white text-center font-captain text-4xl flex flex-col items-center space-y-4">© 2024 John Porrazzo. All rights reserved.</p>
     </footer>
   );
 }

@@ -58,10 +58,10 @@ function Portfolio() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-ocean to-sunset flex flex-col items-center justify-center font-funky">
       <header className="w-full py-6">
-        <h1 className="text-5xl text-tech text-center">My Work</h1>
+        <h1 className="text-5xl text-black text-center">My Work</h1>
       </header>
       <main className="flex-grow flex flex-col items-center justify-center text-2xl">
-        <p className="text-2xl text-tech pt-4">Here are some of my recent projects:</p>
+        <p className="text-2xl text-black pt-4">Here are some of my recent projects:</p>
         <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4 w-full px-4">
           {/* Iterate over the projects array to display each project */}
           {projects.map(item => {
